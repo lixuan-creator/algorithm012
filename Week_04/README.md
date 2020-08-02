@@ -185,6 +185,7 @@
 - 重新界定边界值，不要 mid+1 或 mid-1 ，边界设置为 mid，防止将两部分都变成有序部分
 - 比较 mid 和 mid+1 位置的数据，nums[mid] > nums[mid+1]时返回坐标
 
+代码示例
 
     public static int search(int[] nums) {
         if (nums == null || nums.length == 0) {
