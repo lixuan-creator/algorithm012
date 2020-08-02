@@ -186,7 +186,6 @@
 - 比较 mid 和 mid+1 位置的数据，nums[mid] > nums[mid+1]时返回坐标
 
 
-
     public static int search(int[] nums) {
         if (nums == null || nums.length == 0) {
             return -1;
@@ -206,7 +205,6 @@
             } else {
                 end = mid;
             }
-
         }
         return mid;
     }
